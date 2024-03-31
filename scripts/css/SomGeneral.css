@@ -1,0 +1,153 @@
+:root {
+    --r-background-color: rgb(33, 33, 33);
+    color: #fff;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: rgb(33, 33, 33);
+    letter-spacing: 0.07em;
+    /* padding-top: 40px; */
+    font-family: Arial, sans-serif;
+}
+
+/*************** General *******************/
+h1 {
+    position: absolute;
+    font-size: 30pt;
+    color: white;
+}
+
+h2 {
+    /* position: absolute; */
+    font-size: 24pt;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-top: -20px
+}
+
+#grid {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(640px, 1fr));
+    grid-gap: 5px;
+}
+
+#MapBox {
+    min-width: 650px;
+    column-span: all;
+}
+
+#TextBox {
+    min-width: 650px;
+    min-height: 795px;
+    column-span: all;
+}
+
+#SliderBox {
+    max-width: 750px;
+}
+
+/*************** Menu *******************/
+
+#menuBox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-top: 25px;
+}
+
+#title {
+    font-weight:bold;
+    font-size: 28pt;
+    padding-right: 10px;
+    margin-bottom: -7px;
+}
+
+#Menu{
+    flex-grow: 1;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: flex-end;
+}
+
+#menLinks{
+    flex-grow: 1;
+    display: flex;
+}
+
+#Menu a{
+    color:#bbb;
+    text-decoration:none;
+    padding: 0px 10px;
+}
+
+/* #Menu a:active{
+    color:#fff;
+    font-weight: bold;
+} */
+
+#Menu a.activePage{
+    color:#fff;
+    font-weight: bold;
+}
+
+/*************** SOM *******************/
+
+#SelectButtons {
+    margin-top: -10px;
+}
+
+circle.Punkt {
+    position: absolute;
+    z-index: -1;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2px;
+}
+
+.mapPlot {
+    position: absolute;
+    border: 2px solid white;
+    left: 50px;
+    top: 272px;
+    overflow: visible;
+    z-index: 1;
+}
+
+.invis {
+    display: none;
+}
+
+/*************** Buttons *******************/
+
+.SelBtn {
+    margin: 6px;
+    height: 40px;
+
+    font-size: 10.5pt;
+
+    background-color: transparent;
+    color: #999;
+    border-radius: 7px;
+    border: 2px solid #999;
+
+    cursor: pointer;
+}
+
+.SelBtn.selected,
+.SelBtn.active {
+
+    color: #fff;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 5px;
+}
+
+.sliderFrame {
+    width: 95%;
+    /* margin: 20px; */
+    padding: 15px 0px;
+}
