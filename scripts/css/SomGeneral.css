@@ -14,6 +14,18 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
+a{
+    color:#629ffa;
+    text-decoration:none;
+}
+
+/* a:visited{
+    color:#bbb;
+    text-decoration:none;
+} */
+
+
 /*************** General *******************/
 h1 {
     position: absolute;
