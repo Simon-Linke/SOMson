@@ -13,3 +13,7 @@ Linke, S. & Ziemer, T. (2024). SOMson - Sonification of Multidimensional Data in
 
 ## Dependencies
 This project uses p5.sound (https://github.com/processing/p5.js-sound) for sound synthesis. Further, for proper display, js-colormaps (https://github.com/timothygebhard/js-colormaps) and jQuery (https://github.com/jquery/jquery) are used.
+
+### Funding
+
+This research was funded under the Program "Innovative Hochschule" (innovative university) by the Federal Ministry of Education and Research (BMBF) of Germany and the City of Hamburg (Grant No. 13IHS232C).
